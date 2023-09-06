@@ -7,6 +7,64 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 4000,
+    "id" : "https://chienlingliu.github.io/Typewriters/images/Underwood5/canvas/",
+    "label" : {
+      "none" : [ "Underwood5" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://chienlingliu.github.io/Typewriters/images/Underwood5/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://chienlingliu.github.io/Typewriters/images/Underwood5/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 125,
+              "height" : 94
+            }, {
+              "width" : 250,
+              "height" : 188
+            }, {
+              "width" : 500,
+              "height" : 375
+            }, {
+              "width" : 1000,
+              "height" : 750
+            }, {
+              "width" : 2000,
+              "height" : 1500
+            }, {
+              "width" : 4000,
+              "height" : 3000
+            } ],
+            "profile" : "level0",
+            "width" : 4000,
+            "id" : "https://chienlingliu.github.io/Typewriters/images/Underwood5",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 3000
+          } ],
+          "format" : "image/jpeg",
+          "width" : 4000,
+          "id" : "https://chienlingliu.github.io/Typewriters/images/Underwood5/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 3000
+        },
+        "target" : "https://chienlingliu.github.io/Typewriters/images/Underwood5/canvas/"
+      } ]
+    } ],
+    "height" : 3000
+  }, {
+    "width" : 4000,
     "id" : "https://chienlingliu.github.io/Typewriters/images/Hammond1/canvas/",
     "label" : {
       "none" : [ "Hammond1" ]

@@ -1,0 +1,66 @@
+{
+  "id" : "https://chienlingliu.github.io/Typewriters/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in chienlingliu/Typewriters project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 4000,
+    "id" : "https://chienlingliu.github.io/Typewriters/images/Hammond1/canvas/",
+    "label" : {
+      "none" : [ "Hammond1" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://chienlingliu.github.io/Typewriters/images/Hammond1/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://chienlingliu.github.io/Typewriters/images/Hammond1/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 125,
+              "height" : 136
+            }, {
+              "width" : 250,
+              "height" : 271
+            }, {
+              "width" : 500,
+              "height" : 541
+            }, {
+              "width" : 1000,
+              "height" : 1081
+            }, {
+              "width" : 2000,
+              "height" : 2162
+            }, {
+              "width" : 4000,
+              "height" : 4324
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 4000,
+            "@id" : "https://chienlingliu.github.io/Typewriters/images/Hammond1",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 4324
+          } ],
+          "format" : "image/jpeg",
+          "width" : 4000,
+          "id" : "https://chienlingliu.github.io/Typewriters/images/Hammond1/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 4324
+        },
+        "target" : "https://chienlingliu.github.io/Typewriters/images/Hammond1/canvas/"
+      } ]
+    } ],
+    "height" : 4324
+  } ]
+}
